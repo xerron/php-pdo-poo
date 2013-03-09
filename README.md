@@ -20,7 +20,8 @@ Esta es una referencia, que puede ser usada para el aprendizaje o la construccio
 * Real Programacion orientado a objetos.
 * Aplicación del Estandar de Codificación [PSR-1](https://github.com/php-fig/fig-standards/tree/master/accepted).
 * Uso de las mejoras de PHP 5.3+ (namespaces, __callStatic(), etc)
-* Uso de un archivo de configuración; config.php
+* Uso de un archivo de configuración [config.php]
+* Patron de diseño singleton para la configuración. **new!**
 * Code Poetic: Codigo sencillo y limpio, sin magia negra.
 
 ### Demos:
