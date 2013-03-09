@@ -42,7 +42,9 @@ use Clases\Database;
     <li>Real Programacion orientado a objetos.</li>
     <li>Aplicación del Estandar de Codificación <a href="https://github.com/php-fig/fig-standards/tree/master/accepted">PSR-1</a>.</li>
     <li>Uso de las mejoras de PHP 5.3+ (namespaces, __callStatic(), etc)</li>
-    <li>Uso de un archivo de configuración; config.php</li>
+    <li>Uso de un archivo de configuración (config.php)</li>
+    <li>Patron de diseño singleton para la configuración. <strong>Nuevo!</strong></li>
+    <li>Aplicación del Estandar de Autoload <a href="https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md">PSR-0</a>. <strong>proximamente!</strong></li>
     <li>Code Poetic: Codigo sencillo y limpio, sin magia negra.</li>
 </ul>
 <h4>Demos:</h4>

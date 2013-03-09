@@ -1,6 +1,5 @@
 <?php
-require "config.php";
-require "Clases/usuario.php";
+require 'Clases/usuario.php';
 
 use Clases\Usuario;
 

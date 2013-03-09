@@ -1,8 +1,9 @@
 <?php
-require "config.php";
-require "Clases/database.php";
+require 'Clases/config.php';
+require 'Clases/database.php';
 
 use Clases\Database;
+use Clases\Config;
 
 /**
  * Estas lineas es para el autocompletado en PHPStorm 5.x o Netbeans 7.x

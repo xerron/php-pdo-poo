@@ -9,7 +9,6 @@ namespace Clases;
 
 use PDO;
 
-
 class Database
 {
     private static $link = null;
@@ -26,8 +25,8 @@ class Database
         if (self :: $link) {
             return self :: $link;
         }
-        global $db;
-        self :: $link = new PDO ($db['dsn'], $db['username'], $db['password'], $db['options']);
+        $config = Config::getInstance();
+        self :: $link = new PDO ($config->db['dsn'], $config->db['username'], $config->db['password'], $config->db['options']);
         self :: $link->exec("SET NAMES utf8");
         self :: $link->exec("SET CHARACTER SET utf8");
 

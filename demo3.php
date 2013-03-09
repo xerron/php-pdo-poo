@@ -1,10 +1,11 @@
 <?php
-require "config.php";
-require "Clases/database.php";
-require "Clases/usuario.php";
-require "Clases/grid.php";
+require 'Clases/config.php';
+require 'Clases/database.php';
+require 'Clases/usuario.php';
+require 'Clases/grid.php';
 
 use Clases\Usuario;
+use Clases\Config;
 use Clases\Grid;
 use Clases\Database;
 
